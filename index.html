@@ -5,24 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
   <!--Шапка-->  
-  <header>
-<nav>
+  <header class="pagе-header">
+<nav class="header-nav">
     <!--Logo-->
     <!--<h1>WebStudio</h1>-->
-        <a href=""> 
-         <img src="./images/logowebstudio.svg" alt="логотип">
+        <a href="" class="logo"> 
+        <h2> <span class="logo-first">Web</span>Studio</h2>
         </a>
 <!--меню навігації-->
     
-        <ul>
+        <ul class="nav-list">
             <li> 
                 <a href="">Студія </a> 
              </li>
             <li>
-              <a href="">Портфоліо </a> 
+              <a href="./portfolio.html">Портфоліо </a> 
             </li>
             <li>
              <a href="">Контакти</a> 
@@ -30,7 +34,7 @@
          </ul>
 </nav> 
         <!--Контакти-->
-        <ul>
+        <ul class="list-contakts">
             <li> <a href="mailto:info@devstudio.com ">info@devstudio.com </a></li>
             <li> <a href="tel:+380961111111">+38 096 111 11 11 </a></li>
         </ul>
@@ -39,17 +43,17 @@
 <!-- унікальний контент сторінки main-->
 <main>
 
-    <section>
+    <section class="box-service-order">
     <div>
         <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button>Замовити послугу</button>
+        <button class="btn-service ">Замовити послугу</button>
     </div>
     </section>
 
 <!--секція переліку особливостей-->
-<section>
+<section class="box-detail">
     <!--<h2>особливості</h2>-->
-    <ul>
+    <ul class="box-detail-list">
         <li>
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
             <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -69,41 +73,41 @@
     </ul>
 </section>
 <!--секція галерея робіт-->
-<section>
+<section class="box-list-work">
     <h2>Чим ми займаємося</h2>
     <ul>
         <li>
-            <img src="./images/box1.svg" alt="фото роботи" width="294">
+            <img src="./images/box1.jpg" alt="фото роботи" width="294">
         </li>
         <li>
-            <img src="./images/box2.svg" alt="фото роботи" width="294">
+            <img src="./images/box2.jpg" alt="фото роботи" width="294">
         </li>
         <li>
-            <img src="./images/box3.svg" alt="фото роботи" width="294">
+            <img src="./images/box3.jpg" alt="фото роботи" width="294">
         </li>
     </ul>
 </section>
 <!--секція команда студії-->
-<section>
+<section class="box-team">
     <h2>Наша команда</h2>
     <ul>
         <li>
-            <img src="./images/img1.svg" alt="фото члена команди" width="270">
+            <img src="./images/img1.jpg" alt="фото Product Designer" width="270">
             <h3>Ігор Дем'яненко </h3>
             <h4>Product Designer</h4>
         </li>
         <li>
-            <img src="./images/img2.svg" alt="фото члена команди" width="270">
+            <img src="./images/img2.jpg" alt="фото Frontend Developer" width="270">
             <h3>Ольга Рєпіна </h3>
             <h4>Frontend Developer</h4>
         </li>
         <li>
-            <img src="./images/img3.svg" alt="фото члена команди" width="270">
+            <img src="./images/img3.jpg" alt="фото Marketing" width="270">
             <h3>Микола Тарасов </h3>
             <h4>Marketing</h4>
         </li>
         <li>
-            <img src="./images/img4.svg" alt="фото члена команди" width="270">
+            <img src="./images/img4.jpg" alt="фото UI Designer" width="270">
             <h3>Михайло Єрмаков</h3>
             <h4>UI Designer</h4>
         </li>
@@ -111,12 +115,14 @@
 </section>
 </main>
 <!-- підвал сторінки-->
-<footer>
-    <img src="./images/logowebstudio.svg" alt="логотип">
-    <address>
-        м. Київ, пр-т Лесі Українки, 26 <br>
-        info@devstudio.com <br>
-        +38 096 111 11 11
+<footer class="my-footer">
+    <a href="" class="logo"> 
+        <h2><span class="logo-first">Web</span>Studio</h2>
+        </a>
+    <address class="footer-addres">
+       <span class="footer-addres-f">м. Київ, пр-т Лесі Українки, 26</span> <br>
+        <span class="addres-mail">info@devstudio.com</span>  <br>
+        <span class="adres-tel">+38 096 111 11 11</span>
     </address>
     <!--<ul>
         <li>м. Київ, пр-т Лесі Українки, 26</li>
